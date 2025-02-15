@@ -1,0 +1,237 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 50px; /* Added space below header */
+}
+
+header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+header h5 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+header p {
+  font-size: 18px;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+  color: #ff5722;
+}
+
+/* Section Styles */
+section {
+  padding: 60px 20px;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 1200px;
+}
+
+/* Home Section */
+#home {
+  background-color: #333;
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 50px; /* Added space below Home section */
+}
+
+#home h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #ff5722;
+}
+
+#home p {
+  font-size: 18px;
+}
+
+/* About Section */
+#about {
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 30px;
+  margin-bottom: 30px;
+  margin-top: 50px; /* Added space above About section */
+}
+
+#about h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #333;
+}
+
+.card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin: 25px 0; /* Increased margin between cards */
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.card ul {
+  padding-left: 20px;
+}
+
+.card ul li {
+  margin-bottom: 8px;
+}
+
+/* Contact Section */
+#contact {
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 30px;
+  margin-top: 50px; /* Added space above Contact section */
+}
+
+#contact h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+form button {
+  background-color: #333;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #ff5722;
+}
+
+/* Hobbies Button */
+#hobbiesBtn {
+  background-color: #ff5722;
+  color: white;
+  padding: 15px 30px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  margin-top: 20px;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+#hobbiesBtn:hover {
+  background-color: #e64a19;
+  transform: scale(1.05);
+}
+
+/* Hobbies Section */
+#hobbiesList {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: none;
+}
+
+#hobbiesList h4 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+#hobbiesList ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+#hobbiesList ul li {
+  margin-bottom: 8px;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 50px; /* Added space above Footer */
+}
+
+footer p {
+  font-size: 16px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+footer a:hover {
+  color: #ff5722;
+}
